@@ -1,0 +1,4 @@
+To add functionality for multiple games to be played, we created an empty array as a waiting list for clients to enter.
+We then started a game once the length of the waiting list was 2 or greater, so that whenever a game could be started it was.
+We used threading to allow for multiple threads (games) to run at once, using play_game which holds the functionality of the game flow.
+We then close the socket after the game is done, and through this, I believe we were able to successfully allow for multiple games to be played at once.
